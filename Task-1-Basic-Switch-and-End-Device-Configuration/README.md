@@ -17,7 +17,7 @@
 | Simulator | Cisco Packet Tracer |
 | Switch model | Cisco Catalyst 2960-24TT |
 | IOS shown in device output | 15.0(2)SE4 |
-| Main project file | [Task1_Basic_Switch_Configuration.pkt](./Task1_Basic_Switch_Configuration.pkt) |
+| Packet Tracer project | `Task1_Basic_Switch_Configuration.pkt` (supplied separately; repository upload is pending) |
 
 ---
 
@@ -394,14 +394,9 @@ Additional verification screenshots can be added to this folder as the final tes
 
 ## 14. How to open the Packet Tracer project
 
-1. Download [Task1_Basic_Switch_Configuration.pkt](./Task1_Basic_Switch_Configuration.pkt) from this repository.
-2. Open Cisco Packet Tracer.
-3. Select **File → Open**.
-4. Choose the downloaded `.pkt` file.
-5. Wait for the topology to load, then open each switch's **CLI** tab to inspect its configuration.
-6. Open each PC's **Desktop → Command Prompt** to repeat the ping tests.
+The Packet Tracer file supplied with this lab is named `Task1_Basic_Switch_Configuration.pkt`. Once it is uploaded to this folder, download it from GitHub, open Cisco Packet Tracer, select **File → Open**, and choose the `.pkt` file. After the topology loads, open each switch's **CLI** tab to inspect its configuration and each PC's **Desktop → Command Prompt** to repeat the ping tests.
 
-If a newer Packet Tracer version displays a compatibility prompt, follow the simulator's instructions and save a separate copy after opening it.
+If the file is not yet visible in this repository, upload it into this project folder using GitHub's **Add file → Upload files** option, then commit the upload. If a newer Packet Tracer version displays a compatibility prompt, follow the simulator's instructions and save a separate copy after opening it.
 
 ## 15. Repository contents
 
@@ -411,7 +406,6 @@ Network/
 ├── Ip Address Assignment & DHCP_Summary.png
 └── Task-1-Basic-Switch-and-End-Device-Configuration/
     ├── README.md
-    ├── Task1_Basic_Switch_Configuration.pkt
     └── screenshots/
         ├── topology.png
         └── s1-config-and-save.png
@@ -426,4 +420,4 @@ Network/
 
 ---
 
-**Lab status:** Packet Tracer simulation and supporting documentation are stored in this repository. Refer to the project file and verification commands to reproduce the lab and validate the final connectivity results.
+**Lab status:** Detailed lab documentation and supporting screenshots are stored in this repository. The Packet Tracer `.pkt` file was supplied separately and is ready to be added to this project folder; it is not currently committed in the repository. Refer to the verification commands to reproduce the lab and validate the final connectivity results.
