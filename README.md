@@ -13,7 +13,7 @@ This repository documents practical networking exercises in a reproducible forma
 **Focus:** Cisco Catalyst 2960, Layer 2 switching, static IPv4 addressing, management SVI, basic switch access configuration, IOS verification commands, and ping testing.
 
 - [Open the complete Task 1 documentation](./Task-1-Basic-Switch-and-End-Device-Configuration/README.md)
-- Packet Tracer simulation file: `Task1_Basic_Switch_Configuration.pkt` (supplied separately; repository upload is pending).
+- [Download the Packet Tracer simulation](./Task-1-Basic-Switch-and-End-Device-Configuration/Task1_Basic_Switch_Configuration.pkt).
 - [View the topology screenshot](./Task-1-Basic-Switch-and-End-Device-Configuration/screenshots/topology.png)
 
 The lab uses two Catalyst 2960 switches and two PCs connected in a single /24 LAN. Its documentation includes the port map, IP addressing table, switch configuration commands, verification workflow, test interpretation, interface-status reference, reflection answers, and troubleshooting notes.
